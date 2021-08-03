@@ -561,7 +561,7 @@ header .sub-menu p {
   
   .main-2-textbox {
     display:flex;
-    /* align-items:center; */
+    align-items:center;
     /* justify-content:center; */
   }
   .main-2-s {
