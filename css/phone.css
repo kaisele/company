@@ -627,11 +627,18 @@ header .sub-menu p {
   flex-direction:row-reverse;
 }
 
-@media screen and (min-width:400px) and (max-width:599px) {
+@media screen and (min-width:450px) and (max-width:599px) {
   .main-3-box {
     display:block;
     margin-left:10vw;
     margin-right:10vw;
+  }
+}
+@media screen and (max-width:449px) {
+  .main-3-box {
+    display:block;
+    margin-left:0;
+    margin-right:0;
   }
 }
 
@@ -765,7 +772,7 @@ header .sub-menu p {
 
 
 
-@media screen and (min-width:401px) and (max-width:720px) {
+@media screen and (min-width:376px) and (max-width:720px) {
     
   .main-4>h1 {
     margin:0 10px;
@@ -824,7 +831,7 @@ header .sub-menu p {
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:375px) {
   
   .main-4>h1 {
     margin:0 10px;
